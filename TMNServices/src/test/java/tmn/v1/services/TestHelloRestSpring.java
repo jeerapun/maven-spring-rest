@@ -12,5 +12,12 @@ public class TestHelloRestSpring {
 		HelloRestSpring helloRestSpring = new HelloRestSpring();
 		assertEquals("Hello Rest Spring", helloRestSpring.sayHello());
 	}
+	
+	@Test
+	public void testNotSayHelloRestSpring() 
+	{
+		HelloRestSpring helloRestSpring = new HelloRestSpring();
+		assertFalse("Hi Rest Spring".equals(helloRestSpring.sayHello()));
+	}
 
 }
