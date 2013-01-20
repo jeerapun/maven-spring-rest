@@ -8,4 +8,9 @@ public class HelloRestSpring {
 		return "Hello Rest Spring";
 	}
 
+	public String sayHello(String helloWord) {
+		// TODO Auto-generated method stub
+		return helloWord;
+	}
+
 }
